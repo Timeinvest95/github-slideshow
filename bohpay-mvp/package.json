@@ -1,0 +1,12 @@
+{
+  "name": "bohpay-mvp",
+  "version": "1.0.0",
+  "description": "MVP funcional de wallet USSD BohPay",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "e2e": "bash scripts/test-e2e.sh"
+  }
+}
